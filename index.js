@@ -15,18 +15,20 @@ http.onload = function(){
         for(let item of product){
             output += `
             
-            <div class="products  shadow mx-5">
-            <div class="pokemon">
-            <div class="img-container">
+            <div class="products  mx-5 mt-5">
+            <div class="pokemon shadow  ">
+            <div class="img-container px-3">
             <img src = ${item.image} alt="${item.image}" >
             </div>
-            <div class="details d-flex justify-content-between align-items-center p-4">
-            <p class="title">${item.title}</p>
-            <p class='description'>${item.ability}</p>
-            <p class='price'>${item.type}</p>
+            <div class="details d-flex justify-content-center align-items-center">
+            <p class="title px-1">${item.title}</p>
+            <p class='description px-1'>${item.ability}</p>
+            <p class='price px-1'>${item.type}</p>
             </div>
             </div>
             </div>
+    
+           
             
             `;
            

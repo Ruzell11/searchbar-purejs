@@ -5,3 +5,15 @@ header h1{
 .searchButton{
     font-size: 20px;
 }
+img{
+    height: 200px;
+    
+}
+.products{
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit , minmax(250px , 1fr)) !important;
+    gap: 50px;
+    padding: 10px;
+    text-align: center;
+
+}
