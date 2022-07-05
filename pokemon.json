@@ -1,0 +1,42 @@
+[
+    {
+        "image":"./images/caterpie.jpg",
+        "title":"Caterpie",
+        "ability":"Run Away",
+        "type":"Bug"
+        
+    },
+    {
+        "image":"./images/bulbasaur.jpg",
+        "title":"Bulbasaur",
+        "ability":"Overgrow",
+        "type":"Grass"
+        
+    },
+    {
+        "image":"./images/pikachu.jpg",
+        "title":"Pikachu",
+        "ability":"Static",
+        "type":"Electric"
+        
+    },
+    {
+        "image":"./images/charmander.jpg",
+        "title":"Charmander",
+        "ability":"Blaze",
+        "type":"Fire"
+        
+    },
+    {
+        "image":"./images/nidoran-f.jpg",
+        "title":"Nidoran",
+        "ability":"Poison Point",
+        "type":"Poison"
+    },
+    {
+        "image":"./images/sawsbuck.jpg",
+        "title":"Sawsbuck",
+        "ability":" Chlorophyll",
+        "type":"Grass"
+    }
+]

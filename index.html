@@ -16,33 +16,25 @@
         </h1>
     </header>
     <div class="searchbarContainer d-flex align-items-center justify-content-center mt-4 ">
-        <form action="GET" class="">
+        <form  class="">
             <i class="fas fa-search searchButton"></i>
             <input type="text" class="p-2 rounded" placeholder="search-pokemon" id="search-input">
         </form>
     </div>
-    <div class="list d-flex justify-content-center align-items-center mt-2">
-        <ul class="list-group list-group-flush text-primary h5">
-            <li class="list-group-item p-3 "><img src="./images/charmander.jpg">
-                Charmander</li>
-            <li class="list-group-item p-3 "><img src="./images/bulbasaur.jpg">
-                Bulbasaur<br>
+   
+                <div class="pokemonContainer d-grid justify-content-center align-items-center  mt-2" id="pokemonContainer">
+          
+  
 
-            </li>
-            <li class="list-group-item p-3 "><img src="./images/caterpie.jpg">Caterpie</li>
-            <li class="list-group-item p-3 "><img src='./images/nidoran-f.jpg'>Indoran</li>
-            <li class="list-group-item p-3 "><img src="./images/squirtle.jpg" alt="">Squirtle</li>
-            <li class="list-group-item p-3 "><img src="./images/pikachu.jpg" alt="">Pikachu</li>
-            <li class="list-group-item p-3 "><img src="./images/sawsbuck.jpg">Sawsbuck</li>
-        </ul>
     </div>
+   
 
 </body>
 <script>
     document.querySelector('#search-input').addEventListener('input' , () =>{
         const searchInput =  document.querySelector('#search-input');
         const filter = searchInput.value.toLowerCase();
-        const listItems = document.querySelectorAll('.list-group-item');
+        const listItems = document.querySelectorAll('.pokemon');
         listItems.forEach(item => {
             let text = item.textContent
             if(text.toLowerCase().includes(filter.toLowerCase())){
@@ -53,4 +45,5 @@
         })
     })
 </script>
+<script src="./index.js"></script>
 </html>
